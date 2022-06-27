@@ -5,10 +5,17 @@ function AppHeader() {
         <header className="page-header">
             <nav className="primary-navigation">
                 <ul>
-                    <li className="navigation-item">Getting started</li>
-                    <li className="navigation-item">Documentation</li>
-                    <li className="navigation-item">Components</li>
-                    <li className="navigation-item">Contribute</li>
+                    <li className="navigation-item">
+                        <a href="/">Getting started</a></li>
+                    <li className="navigation-item">
+                        <a href="/">Documentation</a>
+                    </li>
+                    <li className="navigation-item">
+                        <a href="/">Components</a>
+                    </li>
+                    <li className="navigation-item">
+                        <a href="/">Contribute</a>
+                    </li>
                 </ul>
             </nav>
         </header>

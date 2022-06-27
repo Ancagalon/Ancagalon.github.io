@@ -1,0 +1,8 @@
+.primary-navigation ul {
+    display: flex;
+    list-style: none;
+}
+
+.primary-navigation .navigation-item {
+    padding-right: 2rem;
+}

@@ -1,12 +1,11 @@
 
 import './App.css'
+import AppHeader from './components/App/Header/AppHeader'
 
 function App() {
   return (
     <div className="page-layout">
-      <header className="page-header">
-        <nav>Primary nav</nav>
-      </header>
+      <AppHeader />
       <main>
         Main
       </main>
